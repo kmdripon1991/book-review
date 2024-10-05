@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Primary button */
+.btn-primary {
+    background-color: #23be0a;
+  @apply text-white py-2 px-4 rounded hover:bg-green-700;
+}
+
+/* Secondary button */
+.btn-secondary {
+  background-color: #59c6d2;
+  @apply text-white py-2 px-4 rounded hover:bg-teal-600;
+}
+
+.btn-outline{
+    @apply py-2 px-4 rounded text-gray-500
+}
+.btn-outline:hover{
+    @apply py-2 px-4 rounded border text-green-500 border-green-500
+}
